@@ -1,9 +1,9 @@
-FROM python:3-alpine
+FROM arm32v7/python:3
 
 MAINTAINER Ondřej Zráuba <info@zaruba-ondrej.cz> (https://zaruba-ondrej.cz)
 
-RUN apk --no-cache --update add \
-	sshpass openssh openssl-dev libffi-dev musl-dev gcc && \
+RUN apt-get update && \
+	apt-get install -y sshpass && \
 	pip3 install haas-proxy
 
 COPY startup.sh /bin/startup.sh
