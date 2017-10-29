@@ -6,7 +6,7 @@ Unofficial Docker image for HaaS [https://haas.nic.cz/](https://haas.nic.cz/) pr
 
 1. Pull Docker image from Docker HUB 
 ```bash
-$ docker pull budry/docker-cz-nic-hass:latest
+$ docker pull budry/docker-cz-nic-haas:latest
 ```
 2. Run image. You must set DEVICE_TOKEN and it's recommended mount log file by volume option
 ```bash
@@ -14,5 +14,6 @@ $ docker run \
 	-d \ 
 	-e DEVICE_TOKEN=XXX \
 	-v ./haas.log:/var/log/haas.log \
-	budry/docker-cz-nic-hass
+	--restart always
+	budry/docker-cz-nic-haas
 ```
