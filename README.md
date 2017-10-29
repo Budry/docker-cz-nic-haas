@@ -13,7 +13,7 @@ $ docker pull budry/docker-cz-nic-haas:latest
 $ docker run \
 	-d \ 
 	-e DEVICE_TOKEN=XXX \
-	-v ./haas.log:/var/log/haas.log \
+	-v /path/to/your/haas.log:/var/log/haas.log \
 	--restart always
 	budry/docker-cz-nic-haas
 ```
