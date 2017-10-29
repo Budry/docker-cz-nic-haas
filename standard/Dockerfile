@@ -3,8 +3,11 @@ FROM python:3
 MAINTAINER Ondřej Zráuba <info@zaruba-ondrej.cz> (https://zaruba-ondrej.cz)
 
 RUN apt-get update && \
-	apt-get install -y sshpass && \
-	pip3 install haas-proxy
+	apt-get install -y sshpass
+
+ENV HAAS_PROXY_VERSION 1.2
+
+RUN pip3 install haas-proxy==${HAAS_PROXY_VERSION}
 
 COPY startup.sh /bin/startup.sh
 
