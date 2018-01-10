@@ -1,8 +1,6 @@
 FROM arm32v7/python:3
 
-MAINTAINER Ondřej Zráuba <info@zaruba-ondrej.cz> (https://zaruba-ondrej.cz)
-
-
+MAINTAINER Ondřej Záruba <info@zaruba-ondrej.cz> (https://zaruba-ondrej.cz)
 
 RUN apt-get update && \
 	apt-get install -y sshpass
