@@ -1,4 +1,4 @@
-Copyright (c) 2017 - now Ondřej Zráuba <info@zaruba-ondrej.cz> (https://zaruba-ondrej.cz)
+Copyright (c) 2017 - now Ondřej Záruba <info@zaruba-ondrej.cz> (https://zaruba-ondrej.cz)
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
