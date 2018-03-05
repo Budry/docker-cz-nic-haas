@@ -8,7 +8,7 @@ Unofficial Docker image for HaaS [https://haas.nic.cz/](https://haas.nic.cz/) pr
 
 [Docker image on Docker HUB](https://hub.docker.com/r/budry/docker-cz-nic-haas/)
 
-# Supported tags and respective `Dockerfile` links
+### Supported tags and respective `Dockerfile` links
 
 **NOTE:** Tag corresponds to the version of haas-proxy
 
