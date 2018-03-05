@@ -4,6 +4,8 @@ Unofficial Docker image for HaaS [https://haas.nic.cz/](https://haas.nic.cz/) pr
 
 **NOTE:** Tag corresponds to the version of haas-proxy
 
+[Docker image on Docker HUB](https://hub.docker.com/r/budry/docker-cz-nic-haas/)
+
 ## How to use
 
 1. Pull Docker image from Docker HUB 
