@@ -12,12 +12,12 @@ Unofficial Docker image for HaaS [https://haas.nic.cz/](https://haas.nic.cz/) pr
 
 **NOTE:** Tag corresponds to the version of haas-proxy
 
-* `1.6`, `latest` - standard version [(Dockerfile)](https://github.com/Budry/docker-cz-nic-haas/blob/v1.6/standard/Dockerfile)
-* `1.6-arm`, `arm` build for arm devices (RaspberryPI) [(Dockerfile)](https://github.com/Budry/docker-cz-nic-haas/blob/v1.6/arm/Dockerfile)
-* `1.3`, `latest` - standard version [(Dockerfile)](https://github.com/Budry/docker-cz-nic-haas/blob/v1.3/standard/Dockerfile)
-* `1.3-arm`, `arm` - build for arm devices (RaspberryPI) [(Dockerfile)](https://github.com/Budry/docker-cz-nic-haas/blob/v1.3/arm/Dockerfile)
-* `1.2` - standard version [(Dockerfile)](https://github.com/Budry/docker-cz-nic-haas/blob/v1.2/standard/Dockerfile)
-* `1.2-arm`- build for arm devices (RaspberryPI) [(Dockerfile)](https://github.com/Budry/docker-cz-nic-haas/blob/v1.2/arm/Dockerfile)
+* `1.6`, `latest` - standard version [(Dockerfile)](https://github.com/Budry/docker-cz-nic-haas/blob/v1.6/Dockerfile)
+* `1.6-arm`, `arm` build for arm devices (RaspberryPI) [(Dockerfile)](https://github.com/Budry/docker-cz-nic-haas/blob/v1.6/Dockerfile.arm)
+* `1.3`, `latest` - standard version [(Dockerfile)](https://github.com/Budry/docker-cz-nic-haas/blob/v1.3/Dockerfile)
+* `1.3-arm`, `arm` - build for arm devices (RaspberryPI) [(Dockerfile)](https://github.com/Budry/docker-cz-nic-haas/blob/v1.3/Dockerfile.arm)
+* `1.2` - standard version [(Dockerfile)](https://github.com/Budry/docker-cz-nic-haas/blob/v1.2/Dockerfile)
+* `1.2-arm`- build for arm devices (RaspberryPI) [(Dockerfile)](https://github.com/Budry/docker-cz-nic-haas/blob/v1.2/Dockerfile.arm)
 
 ## How to use
 
